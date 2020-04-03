@@ -11,7 +11,7 @@
         </div>
         <v-container>
           <v-row>
-            <v-col cols="3">
+            <v-col cols="6" md="3" lg="3">
               <v-select
                 :items="dataCsv"
                 item-text="text"
@@ -21,7 +21,7 @@
                 hide-details
               ></v-select>
             </v-col>
-            <v-col cols="3">
+            <v-col cols="6" md="3" lg="3">
               <v-select
                 :items="dispCnt"
                 item-text="text"
@@ -31,7 +31,7 @@
                 hide-details
               ></v-select>
             </v-col>
-            <v-col cols="3">
+            <v-col cols="6" md="3" lg="3">
               <v-select
                 :items="speeds"
                 item-text="text"
@@ -41,7 +41,7 @@
                 hide-details
               ></v-select>
             </v-col>
-            <v-col cols="3">
+            <v-col cols="6" md="3" lg="3">
               <v-checkbox
                 v-model="excludeChina"
                 label="Exclude China"
