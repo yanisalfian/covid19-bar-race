@@ -1,4 +1,4 @@
-# covid19-chart
+# covid19-bar-race
 
 ## Project Description
 
