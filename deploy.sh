@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:yanisalfian/covid19-bar-race.git master:gh-pages
+git push -f https://github.com/yanisalfian/covid19-bar-race.git master:gh-pages
 
 cd -
